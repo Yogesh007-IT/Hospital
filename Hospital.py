@@ -32,10 +32,10 @@ def basic_auth(credentials: HTTPBasicCredentials = Depends(security)):
 
 def get_db_connection():
     return mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="",
-        database="hospital",
+        host="sql12.freesqldatabase.com",
+        user="sql12779880",
+        password="XbhV4GixsY",
+        database="sql12779880",
         port="3306"
     )
 
